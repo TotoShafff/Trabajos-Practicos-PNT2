@@ -15,3 +15,11 @@ const productos = [
 
 console.log("Primer producto de la lista:", productos[0].nombre);
 
+//2. Recorrido con for...of: 
+// Usá un bucle for...of para mostrar en consola el nombre y el precio de cada producto. 
+// Formato sugerido: "Producto: Remera - Precio: $1500"
+
+for(const producto of productos){
+    console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
+}
+
