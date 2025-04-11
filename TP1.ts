@@ -29,3 +29,13 @@ for(const producto of productos){
 productos.forEach(productos => {
     console.log(`Producto: ${productos.nombre} - Precio $${productos.precio}`);
 });
+
+//Parte 2: Métodos de transformación y filtrado
+
+//4. Obtener solo los nombres con .map(): 
+//Creá un nuevo array que contenga únicamente los nombres de los productos. 
+//Mostralo en consola. 
+//Resultado esperado: ["Remera", "Pantalón", "Zapatillas", "Gorra", "Campera"]
+
+const nuevoArray = productos.map( nombres => nombres.nombre );
+console.log(nuevoArray);
