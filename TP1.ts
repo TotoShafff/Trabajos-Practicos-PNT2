@@ -54,3 +54,9 @@ console.log("-------------------------------------------------------------------
 
 const arrayFiltrado = productos.filter(producto => producto.categoria === "Ropa");
 console.log(arrayFiltrado);
+
+//6. Filtrar por precio con .filter(): 
+//Creá un array que contenga todos los productos cuyo precio sea mayor a $3000.
+
+const filtradoPorPrecio = productos.filter(producto => producto.precio > 3000);
+console.log(filtradoPorPrecio);
