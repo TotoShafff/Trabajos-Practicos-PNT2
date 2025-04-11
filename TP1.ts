@@ -127,3 +127,11 @@ console.log("-------------------------------------------------------------------
 //Utilizar el operador spread para combinar ambos arrays de productos en un nuevo array.  
 //Mostrar el array resultante en la consola.
 
+const masProductos = [
+    {id: 6, nombre: "Borcegos", precio: 11000, categoria: "Calzado"},  
+    {id: 7, nombre: "Cadena", precio: 3500, categoria: "Accesorios"},
+    {id: 8, nombre: "Pulsera", precio: 2800, categoria: "Accesorios"}
+]
+
+const productosCombinados = [...productos, ...masProductos];
+console.log(productosCombinados);
