@@ -108,11 +108,22 @@ console.log("-------------------------------------------------------------------
 //Ordená los productos por precio de menor a mayor. 
 //Mostrá el nuevo array ordenado.
 
+const usandoSort = productos.sort((a, b) => a.precio - b.precio);
+console.log(usandoSort);
+
+console.log("-------------------------------------------------------------------------------------");
+
 //12. Generar mensajes personalizados con .map(): 
 //Usá .map() para crear un array de strings como este: "El producto Remera cuesta $1500 y pertenece a la categoría Ropa." 
 //Mostrá el resultado en consola.
+
+const mensajePersonalizado = productos.map(producto => `El producto ${producto.nombre} cuesta $${producto.precio} y pertenece a la categoria ${producto.categoria}.`);
+console.log(mensajePersonalizado);
+
+console.log("-------------------------------------------------------------------------------------");
 
 //13. Agregar productos con spread:  
 //Crear un nuevo array de objetos con más productos.  
 //Utilizar el operador spread para combinar ambos arrays de productos en un nuevo array.  
 //Mostrar el array resultante en la consola.
+
