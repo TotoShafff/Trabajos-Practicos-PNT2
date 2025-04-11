@@ -23,3 +23,9 @@ for(const producto of productos){
     console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
 }
 
+//3. Recorrido con .forEach(): 
+//Repetí el ejercicio anterior, pero usando el método .forEach() en lugar del bucle tradicional. 
+
+productos.forEach(productos => {
+    console.log(`Producto: ${productos.nombre} - Precio $${productos.precio}`);
+});
