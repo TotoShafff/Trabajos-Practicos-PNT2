@@ -73,3 +73,36 @@ const productoEncontrado = productos.find(producto => producto.nombre === "Gorra
 console.log(productoEncontrado);
 
 console.log("-------------------------------------------------------------------------------------");
+
+//Parte 3: Métodos de validación
+
+//8. Verificar con .some(): 
+//Usá .some() para comprobar si existe algún producto con un precio mayor a $10.000. 
+//Mostrá el resultado (true o false).
+
+const usandoSome = productos.some(producto => producto.precio > 10000);
+console.log(usandoSome);
+
+console.log("-------------------------------------------------------------------------------------");
+
+//9. Verificar con .every(): 
+//Usá .every() para saber si todos los productos cuestan más de $1000. 
+//Mostrá el resultado.
+
+//10. Verificar existencia con .includes(): 
+//Usando el array de nombres creado en el punto 4, comprobá si contiene el nombre "Campera". 
+
+//Parte 4:
+
+//11. Ordenar con .sort(): 
+//Ordená los productos por precio de menor a mayor. 
+//Mostrá el nuevo array ordenado.
+
+//12. Generar mensajes personalizados con .map(): 
+//Usá .map() para crear un array de strings como este: "El producto Remera cuesta $1500 y pertenece a la categoría Ropa." 
+//Mostrá el resultado en consola.
+
+//13. Agregar productos con spread:  
+//Crear un nuevo array de objetos con más productos.  
+//Utilizar el operador spread para combinar ambos arrays de productos en un nuevo array.  
+//Mostrar el array resultante en la consola.
