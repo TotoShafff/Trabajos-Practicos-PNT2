@@ -89,8 +89,18 @@ console.log("-------------------------------------------------------------------
 //Usá .every() para saber si todos los productos cuestan más de $1000. 
 //Mostrá el resultado.
 
+const usandoEvery = productos.every(producto => producto.precio > 1000);
+console.log(usandoEvery);
+
+console.log("-------------------------------------------------------------------------------------");
+
 //10. Verificar existencia con .includes(): 
-//Usando el array de nombres creado en el punto 4, comprobá si contiene el nombre "Campera". 
+//Usando el array de nombres creado en el punto 4, comprobá si contiene el nombre "Campera".
+
+const usandoIncludes = nuevoArray.includes("Campera");
+console.log(usandoIncludes);
+
+console.log("-------------------------------------------------------------------------------------");
 
 //Parte 4:
 
