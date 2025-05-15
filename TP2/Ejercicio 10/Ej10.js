@@ -22,3 +22,5 @@ function obtenerArticulos() {
 obtenerArticulos()
   .then(() => console.log('Fin'))
   .catch(error => console.error('Error:', error));
+
+  //test
